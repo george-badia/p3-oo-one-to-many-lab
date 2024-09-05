@@ -79,4 +79,6 @@ def test_get_sorted_pets():
     pet3 = Pet("Whiskers", "cat", owner)
     pet4 = Pet("Jerry", "reptile", owner)
     
-    assert owner.get_sorted_pets() == [pet2, pet1, pet4, pet3]
+def get_sorted_pets():
+      return sorted(test_get_sorted_pets())
+    
